@@ -38,8 +38,8 @@ This exclusive closed beta is a thank you to our earliest supporters. Access wil
 * **📖 Medium Followers:** If you subscribe our publications, you're on the list!
 
 If you haven't yet, it's not too late to secure your spot:
-1.  **Star the Repo:** [Click here to go to the GitHub Repository](https://github.com/akarlaraytu/Project-Chimera-FINAL)
-2.  **Follow on Medium:** [Click here to go to our Medium Page](https://medium.com/@your_handle)
+1.  **Star the Repo:** [Click here to go to the GitHub Repository](https://github.com/akarlaraytu/Project-Chimera-Temporary)
+2.  **Follow on Medium:** [Click here to go to our Medium Page](https://medium.com/@akarlaraytu)
 
 Invitations and access details will be shared with the community on launch day!
 
@@ -57,7 +57,7 @@ Project Chimera solves this by providing the LLM with a **Symbolic** safety net 
 
 You can try a **live demo** of the Strategy Lab here:
 
-<a href="https://project-chimera.streamlit.app/" target="_blank"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Live Demo"></a>
+<a href="https://project-chimera-temporary.streamlit.app/" target="_blank"><img src="https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Live Demo"></a>
 
 **See Chimera in Action**
 
@@ -131,6 +131,38 @@ The model is written in TLA+ and checked with the TLC model checker to provide m
 Under the modeled nondeterminism over price and advertising proposals, TLC exhaustively explored millions of states without finding any violation of the defined safety properties. The observed collision probability is far below the calculated bound, supporting the reliability of the result.
 
 For more information check [V1.2.3 Release](https://github.com/akarlaraytu/Project-Chimera/releases/tag/v1.2.3 )
+
+---
+
+
+## 📊 200-Day BTC Backtest Results
+
+The following chart illustrates the performance of the Chimera-Quant strategy over 200 days of BTC/USD data.  
+Compared to a simple Buy & Hold approach, the strategy delivers stronger returns with a more controlled risk profile.
+
+![200-Day Backtest](assets/Chimera_Performance_Report_Final.png)
+
+**Key highlights:**
+- Total Return: 108%+
+- Maximum Drawdown: -11%
+- Total Trades: 100+
+- Significant outperformance versus Buy & Hold
+
+---
+
+## ⏱ 30-Day Recency Test
+
+This section demonstrates the Chimera-Quant strategy’s performance under recent market conditions over the last 30 days.  
+The goal is to validate that the strategy is not only effective in long-term backtests but also resilient in current, volatile environments.
+
+![30-Day Recency Test](assets/recency_test_report.png)
+
+**Key highlights:**
+- Total Return: 80%+
+- Buy & Hold Return: 38%
+- Sharpe Ratio (Annualized): 4.7+
+- Maximum Drawdown: -3%
+- Total Trades: 25
 
 ---
 
